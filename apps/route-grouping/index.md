@@ -7,7 +7,7 @@ title: Route Grouping
 
 If your App has a lot of routes it might be easier to group them if your base URL stays the same.
 
-<pre><code class="php">new Core\Group('/base', function() {
+<pre><code class="php">new Core\Route\Group('/base', function() {
 
     new Core\Route('/', function() {
         echo "Base Index";
